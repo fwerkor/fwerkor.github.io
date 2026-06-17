@@ -5,7 +5,8 @@ on:
     branches: [main]
   workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *'
+    # Daily, about 30 minutes after fwerkor/fwerkor Metrics usually completes.
+    - cron: '45 2 * * *'
   repository_dispatch:
     types: [profile-updated]
 

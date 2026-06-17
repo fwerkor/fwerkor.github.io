@@ -6,6 +6,6 @@ The rendered page is generated from [`fwerkor/fwerkor`](https://github.com/fwerk
 
 ## How it updates
 
-- Scheduled sync: every 15 minutes.
+- Scheduled sync: daily at 02:45 UTC, roughly 30 minutes after the scheduled `fwerkor/fwerkor` Metrics workflow usually completes.
 - Manual sync: run **Sync profile homepage** from this repository's Actions tab.
 - Optional instant sync: send a `repository_dispatch` event of type `profile-updated` to this repository after updating `fwerkor/fwerkor`.
