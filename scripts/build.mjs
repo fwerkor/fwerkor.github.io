@@ -252,7 +252,6 @@ await fs.writeFile(path.join(distDir, 'index.html'), `<!doctype html>
       </a>
       <nav class="nav" aria-label="External links">
         <a class="pill" href="https://github.com/fwerkor">GitHub</a>
-        <a class="pill" href="https://github.com/fwerkor/fwerkor">Profile source</a>
       </nav>
     </header>
     <section class="shell">
