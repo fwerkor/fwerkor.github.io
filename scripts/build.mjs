@@ -43,11 +43,11 @@ await fs.writeFile(path.join(distDir, 'index.html'), `<!doctype html>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="color-scheme" content="light dark" />
   <meta name="description" content="FWERKOR GitHub profile homepage, automatically synced from fwerkor/fwerkor." />
-  <meta property="og:title" content="FWERKOR" />
+  <meta property="og:title" content="FWERKOR GitHub Profile" />
   <meta property="og:description" content="GitHub profile homepage synced from fwerkor/fwerkor." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://fwerkor.github.io/" />
-  <title>FWERKOR</title>
+  <title>FWERKOR GitHub Profile</title>
   <style>
     :root {
       --bg: #f6f8fb;
